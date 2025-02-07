@@ -13,6 +13,9 @@ app.use(express.json());
 
 const PORT = config.PORT;
 
+app.get("/",(req,res)=>{
+    res.send("Server is running...");
+})
 
 
 
