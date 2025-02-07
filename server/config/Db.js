@@ -1,11 +1,9 @@
 import mongoose from "mongoose";
-import dotenv from "dotenv";
-
-dotenv.config();
+import config from "./config.js";
 
 const connectDb =async()=>{
     try {
-        const connection = await mongoose.connect(process.env.MONGO_URL,{
+        const connection = await mongoose.connect(config.MONGO_URL,{
             dbName:"CreditSea"
         });
         console.log(`MongoDB Connected`)
