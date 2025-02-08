@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import config from './config/config.js';
 import connectDb from './config/Db.js';
-
+import xmlRoutes from './routes/xmlRoutes.js'
 
 const app = express();
 connectDb();
@@ -13,11 +13,7 @@ app.use(express.json());
 
 const PORT = config.PORT;
 
-app.get("/",(req,res)=>{
-    res.send("Server is running...");
-})
-
-
+app.use("/api",xmlRoutes);
 
 app.use((_,res)=>{
     res.status(400).json({error:"404 - Route not Found"})
