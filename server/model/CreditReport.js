@@ -20,4 +20,4 @@ const creditReportSchema = new mongoose.Schema({
     overdueAmount: Number,
 });
 
-export default mongoose("CreditReport", creditReportSchema)
+export default mongoose.model("CreditReport", creditReportSchema)
