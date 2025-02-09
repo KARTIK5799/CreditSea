@@ -13,6 +13,7 @@ It provides a **backend API** to upload and extract XML data, store it in MongoD
 - React Router (Navigation)
 - Tailwind CSS (Styling)
 
+
 ### **Backend (Node.js, Express, MongoDB)**
 - Node.js (Runtime)
 - Express.js (Web Framework)
@@ -119,37 +120,17 @@ cd ../client
 npm install
 ```
 
+
 ## **7️⃣ Start Frontend Server**
 ```sh
 npm start
 ```
 
-## **8️⃣ Frontend Features**
+## **9️⃣ Frontend Features**
 ✅ **Upload XML File**  
 ✅ **View Credit Reports**  
-✅ **Search & Filter Reports**  
 ✅ **Responsive UI (Mobile-Friendly)**  
 
----
-
-# 🏗 **Project Structure**
-```
-CreditSea-Fullstack/
-│── server/         # Backend (Node.js, Express, MongoDB)
-│   ├── config/     # Database & Config Files
-│   ├── models/     # Mongoose Models
-│   ├── routes/     # API Routes
-│   ├── controllers/# Business Logic
-│   ├── middleware/ # Multer File Upload Middleware
-│   ├── server.js   # Main Backend Entry
-│   ├── .env        # Environment Variables
-│── client/         # Frontend (React.js)
-│   ├── src/        # React App Source
-│   ├── components/ # UI Components
-│   ├── App.js      # Main React App
-│   ├── index.js    # React Root File
-│── README.md       # Documentation
-```
 
 ---
 
@@ -160,6 +141,7 @@ CreditSea-Fullstack/
 3. Connect GitHub Repository
 4. Set **Environment Variables** (MONGO_URI, PORT)
 5. Deploy & Get Live API URL
+6. 5. My Deployed [Link](https://creditsea-boxj.onrender.com)
 
 ### **🔹 Deploy MongoDB (MongoDB Atlas)**
 1. Sign up at [MongoDB Atlas](https://www.mongodb.com/atlas/database)
@@ -173,8 +155,8 @@ CreditSea-Fullstack/
 ### **🔹 Deploy Frontend (Vercel)**
 1. Sign up on [Vercel](https://vercel.com/)
 2. Connect GitHub Repository
-3. Set **Environment Variables** (API URL)
-4. Deploy & Get Live Frontend URL
+3. Deploy & Get Live Frontend URL
+4. My Deployed [Link](https://credit-sea-gamma.vercel.app/)
 
 ---
 
@@ -182,13 +164,10 @@ CreditSea-Fullstack/
 - **Test API Endpoints using Postman**
 - **Check error handling with invalid XML files**
 - **Ensure frontend correctly fetches data**
+- **Verify UI responsiveness across devices**
 
 ---
 
-# 📜 **License**
-This project is **MIT Licensed**.
-
----
 
 # 📞 **Contact**
 For queries or support, contact:
@@ -196,4 +175,3 @@ For queries or support, contact:
 - **LinkedIn:** [linkedin.com/in/kartiksapkal](https://linkedin.com/in/kartiksapkal)
 - **GitHub:** [github.com/KARTIK5799](https://github.com/KARTIK5799)
 
-```
